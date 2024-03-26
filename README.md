@@ -8,9 +8,17 @@ then commit using `git commit -m "create README.md`.
 
 then create a repo in git hub with the name local-file-git
 
+since, local file is `master` and remote branch is `main` by default, change branch name of local file
+
+change branch name: `git branch -M main`
+
+check the branch name: `git branch`
+
 then copy the ssh and paste it at <ssh> : `git remote add origin <ssh>`
 
-then push the file using `git push orign main` || `git push -u origin master`
+then push the file using `git push orign main` || `git push origin <branch-name>`
+
+or `git push -u orign main` || `git push -u origin <branch-name>`
 
 ## Branches in git
 1. To create a new branch use, `git checkout -b <descriptive-branch-name>`
